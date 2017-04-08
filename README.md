@@ -7,9 +7,10 @@
 
 Settings> Security> ( pattern if enabled) > Fingerprint
 + add fingerprint
-    ./adb devices to get emulator id --> emulator-5554
+    
+      ./adb devices to get emulator id --> emulator-5554
 
-     ./adb -s emulator-5554 emu finger touch 1
+      ./adb -s emulator-5554 emu finger touch 1
  
  to add a new fingerprint where 1 is the id
  
